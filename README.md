@@ -2,9 +2,17 @@
 
 Yemek fotoğrafını yükle, yapay zeka kalorisini söylesin.
 
-Görsel tabanlı yapay zeka modeli kullanarak fotoğraftaki yemeği tanır ve **kalori**, **besin değerleri**, **porsiyon tahmini** gibi detaylı bilgileri saniyeler içinde sunar.
+<div align="center">
+
+### 🌐 [Hemen Dene — foodcalorie-server.onrender.com](https://foodcalorie-server.onrender.com)
+
+*Kurulum gerektirmez, tarayıcıdan doğrudan kullanabilirsin.*
+
+</div>
 
 ---
+
+Görsel tabanlı yapay zeka modeli kullanarak fotoğraftaki yemeği tanır ve **kalori**, **besin değerleri**, **porsiyon tahmini** gibi detaylı bilgileri saniyeler içinde sunar.
 
 ## ✨ Neler Yapabilir?
 
@@ -13,32 +21,43 @@ Görsel tabanlı yapay zeka modeli kullanarak fotoğraftaki yemeği tanır ve **
 - 📊 **Besin Değerleri** — Protein, karbonhidrat, yağ ve lif detayı
 - 🔄 **Alternatif Tahminler** — Benzer yemek önerileri ve güven yüzdeleri
 - 💡 **Sağlık Notları** — Yemek hakkında kısa beslenme tavsiyeleri
+- 🌐 **Web Uygulaması** — Tarayıcıdan kullan, kurulum gerektirmez
 - 🖥 **Masaüstü Uygulama** — Dosya seç, URL yapıştır veya panodan aktar
 
 ## 📸 Nasıl Çalışır?
 
-1. Yemek fotoğrafını yükleyin (dosya, URL veya panodan)
+1. Yemek fotoğrafını yükleyin (dosya, URL veya sürükle-bırak)
 2. Yapay zeka görseli analiz eder
 3. Yemek adı, kalori, besin değerleri ve porsiyon tahmini gelir
 
-## 🚀 Kurulum
+> 💡 **İlk istekte** sunucu uyandığı için 30-60 saniye sürebilir, sonraki istekler hızlıdır.
 
-### Hızlı Kurulum (Windows)
+## 🚀 Kullanım
+
+### 🌐 Web (Önerilen)
+
+Hiçbir şey kurmana gerek yok: **[foodcalorie-server.onrender.com](https://foodcalorie-server.onrender.com)**
+
+### 🖥 Masaüstü Uygulama (Opsiyonel)
+
+Bilgisayarında çalıştırmak istersen:
+
+#### Hızlı Kurulum (Windows)
 
 1. Repoyu indirin veya klonlayın
 2. **`setup.bat`** dosyasına çift tıklayın — gerisini otomatik halleder
 
-### Manuel Kurulum
+#### Manuel Kurulum
 
 ```bash
-git clone https://github.com/yasinagahan16/foodcalorie-ai.git
-cd foodcalorie-ai
+git clone https://github.com/yasinagahan16/FoodCalorie-AI.git
+cd FoodCalorie-AI
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## 📖 Kullanım
+## 📖 Masaüstü Kullanım
 
 ### Masaüstü Uygulama
 
@@ -108,8 +127,8 @@ Her analiz sonucu aşağıdaki formatta döner:
 
 ## 🛠 Gereksinimler
 
-- Python 3.10+
-- İnternet bağlantısı
+- **Web:** Sadece tarayıcı ve internet bağlantısı
+- **Masaüstü:** Python 3.10+ ve internet bağlantısı
 
 ## 📝 Lisans
 
